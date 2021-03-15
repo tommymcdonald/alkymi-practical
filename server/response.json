@@ -1,0 +1,76 @@
+{
+  "count": 3,
+  "fields": [
+    {
+      "name": "Fund Name",
+      "type": "text"
+    },
+    {
+      "name": "Due Date",
+      "type": "date"
+    },
+    {
+      "name": "Price",
+      "type": "text"
+    }
+  ],
+  "results": [
+    {
+      "uuid": "5c7957e0-c08c-47c9-863a-0ddec7e873a8",
+      "created": "2020-07-01T15:40:07.681742Z",
+      "name": "Test Document A",
+      "data": {
+        "fund_name": {
+          "text": "Cookie Capital",
+          "validation_error": null
+        },
+        "due_date": {
+          "text": "2020-07-01",
+          "validation_error": null
+        },
+        "price": {
+          "text": "$5.00",
+          "validation_error": null
+        }
+      }
+    },
+    {
+      "uuid": "5c7957e0-c08c-47c9-863a-0ddec7e873a9",
+      "created": "2020-07-02T15:40:07.681742Z",
+      "name": "Test Document B",
+      "data": {
+        "fund_name": {
+          "text": "Bonbon Capital",
+          "validation_error": null
+        },
+        "due_date": {
+          "text": "2020-05-20",
+          "validation_error": null
+        },
+        "price": {
+          "text": "€10,00",
+          "validation_error": null
+        }
+      }
+    },
+    {
+      "uuid": "5c7957e0-c08c-47c9-863a-0ddec7e873a0",
+      "created": "2020-07-03T15:40:07.681742Z",
+      "name": "Test Document C",
+      "data": {
+        "fund_name": {
+          "text": "Fajita Ventures",
+          "validation_error": null
+        },
+        "due_date": {
+          "text": "1/5/2020",
+          "validation_error": "1/5/2020 is not in the correct format of YYYY-MM-DD"
+        },
+        "price": {
+          "text": " ¥1000",
+          "validation_error": null
+        }
+      }
+    }
+  ]
+}
