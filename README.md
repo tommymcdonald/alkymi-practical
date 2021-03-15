@@ -3,7 +3,7 @@
 
 `yarn serve` or `npm run serve` will run both the server and the client
 
-`yarn test` or `npm run serve` will run the existing reducer and util tests
+`yarn test` or `npm run test` will run the existing reducer and util tests
 
 # UX Improvements
 - Adding "restore" functionality for deleted fields
